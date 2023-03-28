@@ -260,4 +260,44 @@ insert into Delivery(DeliveryID, OrderID, DeliveryPersonID, IsDelivered) values 
 SELECT * FROM Delivery;
 
 
- 
+---View 1
+go
+CREATE VIEW Paymenttt AS
+SELECT p.PaymentID, o.OrderID, o.TotalPrice, o.CustomerID, p.IsSuccessful
+FROM Payment p JOIN [Order] o on o.OrderID = p.OrderID
+WHERE p.IsSuccessful IN (SELECT IsSuccessful FROM Payment where IsSuccessful in ('Success'));
+
+GO
+SELECT * FROM Paymenttt;
+
+---View 2
+go
+CREATE VIEW Menuu AS
+SELECT m.MenuID, mi.MenuItemID, m.MenuName, mi.DishName, mi.DishDescription
+FROM Menu m JOIN MenuItem mi on m.MenuID = mi.MenuID
+WHERE m.MenuName IN (SELECT MenuName FROM Menu where MenuName in ('Lunch'));
+
+go
+SELECT * FROM Menuu;
+
+---view 3
+go
+CREATE VIEW odr AS
+SELECT o.OrderID, r.RestaurantID, d.IsDelivered, r.RestaurantName, o.OrderDate
+FROM [Order] as o INNER JOIN Delivery d on o.OrderID = d.OrderID INNER JOIN Restaurant as r on o.RestaurantID = r.RestaurantID
+
+---DROP VIEW odr;
+go
+SELECT * FROM odr;
+
+---view 4
+go
+CREATE VIEW sps AS
+SELECT s.SupplierID, s.SupplierFirstName, su.SupplyID, su.SupplyDate, p.ProductId, p.ProductName 
+FROM Supplier s JOIN Supply su on s.SupplierID = su.SupplierID JOIN Product p on p.ProductId = su.ProductID
+WHERE ProductName = 'Paneer';
+
+go
+SELECT * FROM sps;
+
+---DROP VIEW sps;
