@@ -301,3 +301,41 @@ go
 SELECT * FROM sps;
 
 ---DROP VIEW sps;
+
+
+---Stored Procedure 1
+---Selecting all restaurants in the city Boston
+go
+CREATE PROCEDURE SelectAllRestaurants  @city varchar(20)
+AS 
+SELECT * FROM Restaurant where RestaurantCity = @city
+Go
+
+EXEC SelectAllRestaurants @city = 'Boston';
+
+---Stored Prodcedure 2
+---Updating the payment status with PaymentID
+go
+CREATE PROCEDURE UpdatePayment @PaymenttID int, @PaymentStatus varchar(10)
+AS
+BEGIN 
+	UPDATE Payment
+	SET IsSuccessful = @PaymentStatus
+	WHERE PaymentID = @PaymenttID
+END
+
+EXEC UpdatePayment '56702', 'Success';
+
+---Stored Procedure 3
+---Displaying the dish with Maximum Price
+go
+ALTER PROCEDURE Maxpricedish as
+DECLARE @maxprice decimal
+Begin
+SELECT @maxprice = max(DishPrice) from MenuItem;
+SELECT DishName, DishPrice
+FROM MenuItem
+WHERE DishPrice = @maxprice
+END
+
+EXEC Maxpricedish;
