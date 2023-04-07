@@ -360,7 +360,84 @@ go
 SELECT dbo.GetSales() as totalorders
 
 ---Trigger
+---once the delivery status changes to true, the restaurant can be sent a notification that the order is delivered
 
 
 
+
+---Column data encryption
+---encrypt customer's emailid
+create Master key
+ENCRYPTION BY PASSWORD='restaurant6210';
+
+SELECT name KeyName,
+	symmetric_key_id KeyID,
+	key_length KeyLength,
+	algorithm_desc KeyAlgorithm
+FROM sys.symmetric_keys;
+
+go
+CREATE CERTIFICATE CustPass
+	WITH SUBJECT = 'Restaurant Password'
+
+GO
+SELECT name CertName,
+	certificate_id CertID,
+	pvt_key_encryption_type_desc EncryptType,
+	issuer_name Issuer
+FROM sys.certificates;
+
+CREATE SYMMETRIC KEY SymKey_test WITH ALGORITHM = AES_256 ENCRYPTION BY CERTIFICATE CustPass;
+
+SELECT name KeyName,
+	symmetric_key_id KeyID,
+	key_length KeyLength,
+	algorithm_desc KeyAlgorithm
+FROM sys.symmetric_keys;
+
+ALTER TABLE Customer 
+ADD email_encrypt varbinary(MAX)
+
+OPEN SYMMETRIC KEY SymKey_test
+	DECRYPTION BY CERTIFICATE CustPass;
+
+UPDATE Customer 
+	SET email_encrypt = ENCRYPTBYKEY(KEY_GUID('SymKey_test'), EmailID)
+	FROM Customer;
+	go
+
+CLOSE SYMMETRIC KEY SymKey_test;
+
+Select * from Customer;
+
+
+---Non-clustered index - 1
+---to find orders using customerID
+CREATE NONCLUSTERED INDEX index_customer_id 
+ON [Order](CustomerID)
+
+Select name, type_desc
+from sys.indexes
+Where object_id = OBJECT_ID('[Order]')
+and type_desc = 'NONCLUSTERED';
+
+---Non-clustered index - 2
+---to find orders of a restaurant using restaurantid
+CREATE NONCLUSTERED INDEX index_restaurantid
+ON [Order](RestaurantID)
+
+Select name, type_desc
+from sys.indexes
+Where object_id = OBJECT_ID('[Order]')
+and type_desc = 'NONCLUSTERED';
+
+---Non-clustered index - 3
+---Orderid and payment
+CREATE NONCLUSTERED INDEX index_orderid
+ON Payment(OrderID)
+
+Select name, type_desc
+from sys.indexes
+Where object_id = OBJECT_ID('Payment')
+and type_desc = 'NONCLUSTERED';
 	
