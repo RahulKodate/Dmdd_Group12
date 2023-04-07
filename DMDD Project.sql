@@ -339,3 +339,28 @@ WHERE DishPrice = @maxprice
 END
 
 EXEC Maxpricedish;
+
+---UDF 1
+---calculate sales
+go
+ALTER FUNCTION dbo.GetSales()
+RETURNS int
+AS
+BEGIN
+
+	DECLARE @TotalCompletedOrders int
+
+	select @TotalCompletedOrders = count(PaymentID) from Payment
+	where IsSuccessful = 'Success'
+
+	RETURN @TotalCompletedOrders
+END
+
+go
+SELECT dbo.GetSales() as totalorders
+
+---Trigger
+
+
+
+	
