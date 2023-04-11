@@ -1,0 +1,328 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+
+    font-family: sans-serif; 
+}
+
+#homepage {
+    display: grid;
+    position: relative;
+    height: 100%;
+    min-width: 360px;
+    max-width: 1800px;
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas: 
+    "header"
+    "main"
+    "footer"
+    ;
+    background-color: cadetblue;
+}
+
+/* Header */
+
+.header{
+    grid-area: header;
+    position: relative;
+
+    display: grid;
+    grid-column: repeat(12, 1fr);
+
+    color: aliceblue;
+}
+
+.header__skip {
+    grid-column: 5 / 9;
+    position: absolute;
+    left: 5rem;
+    opacity: 0;
+}
+
+.header__skip:hover {
+    opacity: 1;
+}
+
+.header__skip:focus {
+    opacity: 1;
+}
+
+.header__logo {
+    grid-column: 1 / 2;
+}
+
+.header__logo img {
+    width: 100px;
+    height: 100px;
+    margin: 00.5rem;
+}
+
+.header__title {
+    grid-column: 2 / 13;
+    min-width: 350px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0;
+    padding-right: 7rem;
+}
+
+/* Header Navigation */
+
+.header__navigation {
+    grid-column: 1 / 13;
+    
+    border: 1px solid white;
+}
+
+.nav__menu {
+    list-style: none;
+    margin: 00.5rem;
+}
+
+.nav__btn {
+    display: none;
+}
+
+.nav__dropdown {
+    display: none;
+}
+
+.nav__submenu {
+    display: flex;
+    padding: 0;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.nav__submenu > li > a{
+    color: white;
+}
+
+/* Header Mobile Version*/
+
+@media screen and (max-width: 44rem) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        background-color: cadetblue;
+    }
+
+    .header__skip {
+        left: 15rem;
+    }
+
+    .header__title {
+        padding: 0;
+    }
+
+    .header__navigation {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        border: 0;
+        background-color: royalblue;
+
+        padding-top: 1rem;
+        margin-right: 1rem;
+    }
+
+    .nav__menu {
+        position: relative;
+        list-style: none;
+        background-color: inherit;
+        cursor: pointer;
+    }
+
+    .nav__dropdown {
+        background-color: inherit;
+        color: white;
+    }
+
+    .nav__btn {
+        display: block;
+        position: absolute;
+        top: -22px;
+        right: -3px;
+        border: none;
+        cursor: pointer;
+        background-color: inherit;
+        
+        width: 35px;
+        height: 35px;
+    }
+
+    .nav__submenu  {
+        position: absolute;
+        right: 0;
+        top: 0.5rem;
+
+        display: flex;
+        flex-direction: column;
+    
+        max-height: 0;
+        padding: 0;
+        margin: 0;
+        gap: 0.1rem;
+    
+        overflow: hidden;
+        background-color: royalblue;
+        list-style: none;
+    }
+
+    .nav__submenu > li > a{
+        display: flex;
+        justify-content: flex-end;
+        min-width: 8rem;
+    }
+
+    .nav__submenu.open {
+        max-height: initial;
+    }
+
+    /* "below CSS adapted from https://css.gg under the MIT License" */
+    .gg-menu {
+        transform: scale(var(--ggs,1))
+       }
+       
+       .gg-menu,
+       .gg-menu::after,
+       .gg-menu::before {
+        box-sizing: border-box;
+        position: relative;
+        display: block;
+        width: 30px;
+        height: 4px;
+        border-radius: 3px;
+        background: currentColor;
+        padding-top: 0.2rem;
+       }
+       
+       .gg-menu::after,
+       .gg-menu::before {
+        content: "";
+        position: absolute;
+        top: -8px
+       }
+       
+       .gg-menu::after {
+        top: -16px
+       } 
+}
+
+
+/* Main */
+.main {
+    grid-area: main;
+    grid-column: span;
+    background-color: lightskyblue;
+
+    gap: 1rem;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.card {
+    border: black solid 1px;
+    background-color: rgb(255, 255, 255);
+    padding: 0.5rem;
+    width: 100%;
+    
+    display: flex;
+    justify-content: space-around;
+    line-height: 1.2;
+}
+
+.card__pic {
+    width: 200px;
+    height: 200px;
+   
+    margin: 0.5rem;
+}
+
+.card__title {
+    display: flex;
+    justify-content: center;
+}
+
+.first__card {
+    flex-direction: row-reverse;
+}
+
+.btn{
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    padding: 1px;
+    cursor: pointer;
+    color: lightblue;
+    background-color: indianred;
+}
+/* Card Mobile Version */
+
+@media screen and (max-width: 44rem) {
+    .main {
+        padding: 0;
+        margin: 0;
+        gap: 0;
+    }
+
+    .card {
+        display: block;
+    }
+
+    .first__card {
+        border-bottom: 0;
+    }
+
+    .first__card .card__pic {
+        float: right;
+    }
+    
+    .second__card .card__pic {
+        float: left;
+    }
+
+    .card__pic {
+        width: 125px;
+        height: 125px;
+    }
+}
+
+
+/* Footer */
+.footer {
+    grid-area: footer;
+    grid-column: span;
+
+    display: flex;
+    justify-content: space-around;
+    padding: 0.5rem;
+    background-color: cadetblue;
+}
+
+.footer > a {
+    color:aliceblue;
+}
+
+@media screen and (max-width: 44rem) {
+    .footer {
+        flex-direction: column;
+        gap: 1rem;
+    }
+
+    .footer > a {
+        display: flex;
+        justify-content: center;
+    }
+}
+
