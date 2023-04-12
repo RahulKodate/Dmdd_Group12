@@ -1,0 +1,501 @@
+MenuItemID,MenuID,DishName,DishPrice,DishType
+50001,40001,Represent Burger,71.65,Side Dish
+50002,40002,Road Soup,32.61,Beverage
+50003,40003,Up Salad,67.32,Beverage
+50004,40004,Professional Sandwich,8.86,Appetizer
+50005,40005,Company Soup,51.18,Appetizer
+50006,40006,Keep Soup,62.84,Beverage
+50007,40007,Campaign Soup,42.29,Appetizer
+50008,40008,Dinner Soup,90.48,Appetizer
+50009,40009,Very Sandwich,82.39,Beverage
+50010,40010,Movement Soup,15.69,Dessert
+50011,40011,Lawyer Pizza,24.5,Beverage
+50012,40012,Them Sandwich,58.69,Appetizer
+50013,40013,Accept Soup,31.05,Side Dish
+50014,40014,Line Salad,96.7,Beverage
+50015,40015,Get Soup,10.56,Main Course
+50016,40016,Among Pasta,91.1,Dessert
+50017,40017,Physical Burger,82.96,Dessert
+50018,40018,Senior Pasta,39.36,Main Course
+50019,40019,Whom Pasta,68.95,Beverage
+50020,40020,Yes Pasta,42.85,Main Course
+50021,40021,Describe Sandwich,51.32,Main Course
+50022,40022,Mr Pizza,29.6,Dessert
+50023,40023,Heavy Pizza,89.75,Appetizer
+50024,40024,Travel Burger,74.8,Appetizer
+50025,40025,Resource Sandwich,95.67,Main Course
+50026,40026,Collection Pizza,68.1,Main Course
+50027,40027,Situation Pizza,71,Main Course
+50028,40028,Myself Salad,31.38,Main Course
+50029,40029,Chance Pasta,82.33,Appetizer
+50030,40030,Measure Pasta,55.44,Beverage
+50031,40031,Fund Sandwich,64.63,Appetizer
+50032,40032,Reality Pasta,44.64,Beverage
+50033,40033,Level Salad,61.65,Beverage
+50034,40034,Common Pizza,36.44,Dessert
+50035,40035,Live Soup,75.04,Dessert
+50036,40036,Him Pasta,9.27,Dessert
+50037,40037,Popular Pizza,69.45,Side Dish
+50038,40038,Game Pasta,36.72,Dessert
+50039,40039,Mind Pasta,63.38,Beverage
+50040,40040,Authority Soup,25.54,Side Dish
+50041,40041,Recognize Soup,67.79,Side Dish
+50042,40042,Under Sandwich,34.19,Appetizer
+50043,40043,Church Salad,17.05,Appetizer
+50044,40044,Cultural Sandwich,3.87,Dessert
+50045,40045,Job Salad,66.78,Beverage
+50046,40046,Office Burger,15.15,Beverage
+50047,40047,Feeling Burger,79.09,Side Dish
+50048,40048,Actually Salad,56.57,Appetizer
+50049,40049,Mission Salad,76.13,Beverage
+50050,40050,Degree Salad,7.77,Dessert
+50051,40051,City Pizza,55.59,Appetizer
+50052,40052,Stay Salad,54.61,Main Course
+50053,40053,Agency Soup,47.25,Side Dish
+50054,40054,Another Burger,83.31,Side Dish
+50055,40055,Simple Soup,28.82,Dessert
+50056,40056,Contain Sandwich,33.19,Side Dish
+50057,40057,Perform Salad,47.02,Side Dish
+50058,40058,Though Pasta,7.34,Appetizer
+50059,40059,President Burger,35.31,Appetizer
+50060,40060,Tend Salad,14.23,Main Course
+50061,40061,Through Pasta,62.62,Beverage
+50062,40062,Decision Burger,12.63,Dessert
+50063,40063,Want Soup,46.11,Main Course
+50064,40064,Local Salad,26.01,Dessert
+50065,40065,Be Pasta,77.43,Appetizer
+50066,40066,Knowledge Sandwich,87.85,Appetizer
+50067,40067,Parent Burger,4.56,Side Dish
+50068,40068,Test Soup,38.98,Dessert
+50069,40069,Wish Sandwich,7.78,Appetizer
+50070,40070,Art Salad,22.07,Side Dish
+50071,40071,Your Sandwich,48.87,Main Course
+50072,40072,Spend Sandwich,3.31,Dessert
+50073,40073,And Sandwich,88.88,Dessert
+50074,40074,Visit Pizza,0.82,Appetizer
+50075,40075,Involve Pasta,98.37,Main Course
+50076,40076,His Salad,40.04,Side Dish
+50077,40077,Money Sandwich,47.67,Dessert
+50078,40078,Rest Pizza,92.17,Dessert
+50079,40079,Leg Soup,18.72,Dessert
+50080,40080,Wind Salad,28.37,Beverage
+50081,40081,Home Burger,89.87,Side Dish
+50082,40082,Ask Pasta,48.19,Dessert
+50083,40083,Modern Pizza,1.2,Appetizer
+50084,40084,Conference Pizza,14.25,Main Course
+50085,40085,Benefit Pizza,55.2,Appetizer
+50086,40086,Allow Pasta,35.95,Main Course
+50087,40087,Ten Pizza,74.62,Appetizer
+50088,40088,Special Pasta,68.91,Side Dish
+50089,40089,Figure Pizza,87.71,Appetizer
+50090,40090,Computer Pizza,82.72,Appetizer
+50091,40091,Deep Pizza,23.09,Main Course
+50092,40092,Program Burger,54.11,Appetizer
+50093,40093,Determine Pasta,65.34,Dessert
+50094,40094,Walk Salad,76.72,Dessert
+50095,40095,Event Burger,75.7,Dessert
+50096,40096,White Soup,5.35,Main Course
+50097,40097,War Burger,44.67,Beverage
+50098,40098,Race Salad,7.39,Appetizer
+50099,40099,Prepare Burger,55.78,Beverage
+50100,40100,Same Sandwich,50.07,Side Dish
+50101,40101,Throughout Salad,51.61,Main Course
+50102,40102,Maybe Burger,97.63,Beverage
+50103,40103,Plan Salad,70.75,Appetizer
+50104,40104,Simply Salad,0.29,Beverage
+50105,40105,Yeah Salad,82.02,Beverage
+50106,40106,Yard Pasta,94.57,Main Course
+50107,40107,Teacher Pizza,76.72,Appetizer
+50108,40108,Maintain Pasta,1.08,Main Course
+50109,40109,Price Pasta,95.16,Appetizer
+50110,40110,Data Pasta,38.9,Dessert
+50111,40111,Week Burger,33.62,Appetizer
+50112,40112,Drive Pasta,27.53,Dessert
+50113,40113,The Soup,1.45,Dessert
+50114,40114,Take Burger,68.78,Main Course
+50115,40115,Space Sandwich,59.57,Appetizer
+50116,40116,News Burger,98.82,Dessert
+50117,40117,Fight Salad,67.09,Side Dish
+50118,40118,Share Salad,25.64,Side Dish
+50119,40119,Property Sandwich,57.51,Main Course
+50120,40120,Shake Burger,99.14,Main Course
+50121,40121,Rich Pizza,77.6,Side Dish
+50122,40122,Practice Pizza,36.3,Dessert
+50123,40123,Never Salad,15.14,Dessert
+50124,40124,Quickly Sandwich,90.52,Dessert
+50125,40125,Option Soup,82.52,Dessert
+50126,40126,Thank Pizza,89.16,Appetizer
+50127,40127,Evening Soup,4.86,Main Course
+50128,40128,Animal Burger,60.71,Dessert
+50129,40129,Itself Sandwich,73.42,Main Course
+50130,40130,Product Pasta,70.36,Side Dish
+50131,40131,Success Burger,16.87,Main Course
+50132,40132,Tree Pasta,9.53,Side Dish
+50133,40133,Little Pizza,8.51,Side Dish
+50134,40134,Official Pasta,17.42,Appetizer
+50135,40135,Forward Pizza,83.37,Beverage
+50136,40136,Financial Sandwich,50.83,Appetizer
+50137,40137,Go Salad,25.46,Dessert
+50138,40138,Market Pasta,29.62,Appetizer
+50139,40139,Will Soup,18.7,Beverage
+50140,40140,Hospital Soup,45.66,Dessert
+50141,40141,Southern Soup,28.73,Main Course
+50142,40142,Cell Sandwich,34.47,Main Course
+50143,40143,Information Pizza,60.07,Beverage
+50144,40144,Imagine Salad,6.9,Appetizer
+50145,40145,Sign Burger,94.6,Appetizer
+50146,40146,Apply Burger,77.81,Appetizer
+50147,40147,After Salad,97.06,Dessert
+50148,40148,Region Pasta,59.57,Dessert
+50149,40149,Help Pasta,24.82,Main Course
+50150,40150,Career Pasta,73.02,Main Course
+50151,40151,Agree Sandwich,28.22,Dessert
+50152,40152,Own Pizza,87.1,Dessert
+50153,40153,Oil Pasta,46.32,Side Dish
+50154,40154,Big Burger,88.62,Beverage
+50155,40155,Try Sandwich,74.5,Main Course
+50156,40156,Blue Salad,75.87,Main Course
+50157,40157,Join Soup,39.93,Side Dish
+50158,40158,Close Pasta,58.94,Beverage
+50159,40159,Hand Sandwich,42.95,Beverage
+50160,40160,Middle Soup,54.32,Appetizer
+50161,40161,Read Sandwich,1.23,Dessert
+50162,40162,Watch Soup,10.47,Beverage
+50163,40163,Strategy Soup,18.62,Dessert
+50164,40164,Message Sandwich,19.93,Main Course
+50165,40165,Surface Sandwich,75.62,Beverage
+50166,40166,Tax Burger,43.86,Beverage
+50167,40167,Single Sandwich,15.23,Beverage
+50168,40168,Condition Pizza,76.25,Beverage
+50169,40169,Much Pizza,37.28,Side Dish
+50170,40170,Soldier Pasta,56.25,Beverage
+50171,40171,Draw Soup,89.99,Dessert
+50172,40172,Style Pasta,80.28,Side Dish
+50173,40173,East Salad,82.85,Side Dish
+50174,40174,Water Pizza,91.98,Appetizer
+50175,40175,Firm Sandwich,96.01,Main Course
+50176,40176,Black Pasta,14.72,Main Course
+50177,40177,Particularly Soup,16.86,Side Dish
+50178,40178,They Salad,20.87,Side Dish
+50179,40179,Material Pizza,19.86,Side Dish
+50180,40180,Add Burger,71.18,Dessert
+50181,40181,Between Pizza,70.32,Side Dish
+50182,40182,Suffer Pizza,19.01,Beverage
+50183,40183,Around Pizza,65.32,Dessert
+50184,40184,Child Salad,89.83,Beverage
+50185,40185,Center Pasta,5.1,Beverage
+50186,40186,Necessary Pasta,36.02,Side Dish
+50187,40187,What Salad,4.12,Beverage
+50188,40188,Beautiful Pasta,14.4,Appetizer
+50189,40189,Which Salad,15.82,Dessert
+50190,40190,Small Sandwich,85.42,Appetizer
+50191,40191,Born Burger,77.61,Side Dish
+50192,40192,Whatever Soup,1.1,Side Dish
+50193,40193,Buy Sandwich,30.58,Beverage
+50194,40194,Goal Sandwich,62.4,Beverage
+50195,40195,Per Pizza,65.91,Dessert
+50196,40196,Sure Soup,93.49,Appetizer
+50197,40197,Meeting Pasta,30.48,Dessert
+50198,40198,Pattern Pizza,68.86,Appetizer
+50199,40199,Of Burger,22.61,Appetizer
+50200,40200,Cause Pasta,33.56,Dessert
+50201,40201,Capital Pizza,5.33,Beverage
+50202,40202,Leader Pasta,72.39,Appetizer
+50203,40203,Boy Pizza,35.67,Beverage
+50204,40204,Remain Pasta,53.71,Beverage
+50205,40205,Within Salad,3.06,Main Course
+50206,40206,Light Burger,72.24,Main Course
+50207,40207,By Pasta,25.98,Main Course
+50208,40208,Do Sandwich,77.27,Beverage
+50209,40209,Edge Sandwich,45.43,Main Course
+50210,40210,Smile Burger,8.05,Dessert
+50211,40211,Family Pizza,41.53,Side Dish
+50212,40212,Month Soup,73.85,Beverage
+50213,40213,Election Sandwich,37.62,Dessert
+50214,40214,Late Sandwich,50.63,Main Course
+50215,40215,Sit Pasta,44.94,Side Dish
+50216,40216,History Salad,24.86,Beverage
+50217,40217,Morning Soup,63.74,Appetizer
+50218,40218,Administration Soup,74.62,Dessert
+50219,40219,My Sandwich,12.27,Side Dish
+50220,40220,Specific Burger,32.21,Dessert
+50221,40221,Republican Pasta,12.55,Beverage
+50222,40222,Fly Soup,30.5,Appetizer
+50223,40223,Find Pasta,18.32,Appetizer
+50224,40224,Begin Sandwich,90.2,Dessert
+50225,40225,Project Salad,39.86,Appetizer
+50226,40226,For Pizza,55.61,Main Course
+50227,40227,Sea Sandwich,99.99,Dessert
+50228,40228,Court Soup,83.57,Dessert
+50229,40229,Tv Burger,29.5,Appetizer
+50230,40230,Believe Pizza,62.36,Main Course
+50231,40231,Somebody Sandwich,12.17,Dessert
+50232,40232,Behavior Pizza,32.68,Appetizer
+50233,40233,Make Pasta,0.23,Main Course
+50234,40234,Door Salad,77.78,Appetizer
+50235,40235,Task Pizza,78.75,Dessert
+50236,40236,Tough Sandwich,20.32,Dessert
+50237,40237,Exist Salad,2.4,Dessert
+50238,40238,Executive Burger,51.18,Side Dish
+50239,40239,General Burger,89.15,Side Dish
+50240,40240,Also Salad,60.27,Side Dish
+50241,40241,Management Sandwich,40.48,Dessert
+50242,40242,Call Pasta,29.44,Main Course
+50243,40243,Green Soup,33.63,Side Dish
+50244,40244,She Burger,18.6,Dessert
+50245,40245,Paper Pasta,26.67,Dessert
+50246,40246,Piece Soup,7.93,Main Course
+50247,40247,Rule Soup,86.42,Appetizer
+50248,40248,Treat Sandwich,87.12,Appetizer
+50249,40249,Push Salad,65.28,Beverage
+50250,40250,Model Pasta,9.38,Side Dish
+50251,40251,Kid Pizza,64.56,Dessert
+50252,40252,Eat Sandwich,2.61,Side Dish
+50253,40253,End Pasta,7.59,Side Dish
+50254,40254,Machine Soup,47.49,Appetizer
+50255,40255,Still Sandwich,0.56,Beverage
+50256,40256,Investment Salad,30.15,Side Dish
+50257,40257,Unit Pasta,28.91,Dessert
+50258,40258,Store Pizza,45.94,Appetizer
+50259,40259,Change Burger,70.57,Dessert
+50260,40260,Happy Salad,84.7,Dessert
+50261,40261,How Pasta,31.44,Main Course
+50262,40262,Onto Soup,40.32,Dessert
+50263,40263,Pass Burger,37.79,Main Course
+50264,40264,Thing Sandwich,31.39,Dessert
+50265,40265,Beyond Salad,90,Side Dish
+50266,40266,Central Salad,95.2,Beverage
+50267,40267,Explain Pasta,72.63,Main Course
+50268,40268,Analysis Soup,67.08,Main Course
+50269,40269,Pull Burger,96.01,Dessert
+50270,40270,At Salad,54.9,Appetizer
+50271,40271,Young Pasta,82.82,Main Course
+50272,40272,Range Soup,36.92,Side Dish
+50273,40273,Both Pizza,91.37,Side Dish
+50274,40274,Present Pasta,26.61,Dessert
+50275,40275,Medical Salad,57.15,Appetizer
+50276,40276,Picture Salad,84.55,Dessert
+50277,40277,Business Soup,69.03,Appetizer
+50278,40278,Whole Salad,29.48,Side Dish
+50279,40279,Country Sandwich,36.83,Side Dish
+50280,40280,Save Salad,3.8,Main Course
+50281,40281,Than Burger,22.46,Dessert
+50282,40282,Dream Burger,86.79,Main Course
+50283,40283,Put Soup,65.94,Appetizer
+50284,40284,Fill Sandwich,39.96,Appetizer
+50285,40285,Again Burger,79.92,Dessert
+50286,40286,Seek Sandwich,35.98,Side Dish
+50287,40287,Compare Pizza,32.54,Dessert
+50288,40288,Argue Sandwich,21.96,Main Course
+50289,40289,Story Burger,13.86,Dessert
+50290,40290,Economic Pasta,36.12,Main Course
+50291,40291,Five Pasta,6.34,Dessert
+50292,40292,Amount Sandwich,88.25,Appetizer
+50293,40293,Education Sandwich,22.61,Main Course
+50294,40294,Out Pasta,50.57,Side Dish
+50295,40295,Improve Sandwich,88.21,Dessert
+50296,40296,Manager Sandwich,41.7,Main Course
+50297,40297,Well Salad,93.92,Appetizer
+50298,40298,That Pizza,38.64,Side Dish
+50299,40299,Mother Burger,92.28,Dessert
+50300,40300,Since Pasta,31.62,Dessert
+50301,40301,Far Soup,93.71,Dessert
+50302,40302,True Sandwich,11.96,Side Dish
+50303,40303,Room Salad,95.5,Appetizer
+50304,40304,Catch Pizza,99.1,Appetizer
+50305,40305,Whether Soup,56.58,Beverage
+50306,40306,Across Pizza,26.62,Appetizer
+50307,40307,Her Sandwich,33.08,Beverage
+50308,40308,Ahead Soup,58.07,Beverage
+50309,40309,Laugh Salad,75.95,Dessert
+50310,40310,Away Salad,99.99,Beverage
+50311,40311,Kind Salad,92.63,Side Dish
+50312,40312,Identify Burger,86.81,Side Dish
+50313,40313,Require Pasta,26.75,Side Dish
+50314,40314,Where Sandwich,30.49,Beverage
+50315,40315,Food Sandwich,7.42,Beverage
+50316,40316,Role Salad,55.92,Beverage
+50317,40317,Nation Pizza,77.58,Main Course
+50318,40318,Difficult Pizza,89.85,Main Course
+50319,40319,Prove Salad,21.39,Main Course
+50320,40320,Student Burger,23.29,Side Dish
+50321,40321,Science Pizza,69.07,Side Dish
+50322,40322,Teach Pizza,54.49,Main Course
+50323,40323,Low Sandwich,19.72,Side Dish
+50324,40324,Send Burger,87.75,Appetizer
+50325,40325,Into Sandwich,35.96,Main Course
+50326,40326,Seat Salad,59.82,Side Dish
+50327,40327,Ever Sandwich,48.7,Main Course
+50328,40328,Sister Pizza,86.09,Side Dish
+50329,40329,Ground Salad,69.63,Beverage
+50330,40330,Claim Pasta,98.24,Appetizer
+50331,40331,Himself Pizza,70.45,Appetizer
+50332,40332,Author Burger,33.85,Main Course
+50333,40333,Seven Sandwich,5.1,Beverage
+50334,40334,Real Burger,46.53,Appetizer
+50335,40335,View Pasta,30.97,Side Dish
+50336,40336,Trade Sandwich,83.01,Side Dish
+50337,40337,Wife Pasta,22.71,Side Dish
+50338,40338,Husband Burger,87.87,Dessert
+50339,40339,Others Sandwich,72.87,Main Course
+50340,40340,Significant Pasta,52.62,Dessert
+50341,40341,West Pasta,99.32,Side Dish
+50342,40342,Near Burger,48.08,Side Dish
+50343,40343,Three Burger,44.85,Main Course
+50344,40344,Experience Burger,15.86,Side Dish
+50345,40345,Air Burger,67.18,Main Course
+50346,40346,Only Pizza,87.43,Main Course
+50347,40347,Focus Sandwich,89.95,Side Dish
+50348,40348,Able Burger,76.05,Main Course
+50349,40349,Better Soup,53.13,Dessert
+50350,40350,Hold Burger,36.5,Beverage
+50351,40351,As Soup,36.92,Main Course
+50352,40352,Quite Sandwich,77.11,Dessert
+50353,40353,Minute Pasta,6.9,Side Dish
+50354,40354,Consumer Salad,11.47,Beverage
+50355,40355,Next Pasta,27.47,Side Dish
+50356,40356,Class Pizza,88.83,Side Dish
+50357,40357,Truth Sandwich,51.26,Dessert
+50358,40358,Crime Pizza,80.1,Dessert
+50359,40359,Expert Pasta,84.89,Dessert
+50360,40360,Back Burger,34.27,Side Dish
+50361,40361,Health Soup,13.7,Main Course
+50362,40362,Nor Pasta,57.62,Side Dish
+50363,40363,Fish Burger,34.58,Beverage
+50364,40364,Few Sandwich,42.62,Side Dish
+50365,40365,Painting Pizza,17.33,Side Dish
+50366,40366,Meet Sandwich,59.12,Beverage
+50367,40367,Power Pizza,57.7,Appetizer
+50368,40368,Here Burger,71.92,Dessert
+50369,40369,Stop Salad,31.54,Side Dish
+50370,40370,Short Pasta,97.81,Side Dish
+50371,40371,Training Pizza,8.72,Main Course
+50372,40372,Check Pasta,9.24,Appetizer
+50373,40373,Second Pizza,54.76,Beverage
+50374,40374,Wall Soup,44.36,Main Course
+50375,40375,Guess Soup,57.13,Beverage
+50376,40376,Theory Salad,0.53,Beverage
+50377,40377,Majority Pizza,2.35,Appetizer
+50378,40378,Kitchen Pasta,76.47,Dessert
+50379,40379,Despite Salad,53.99,Main Course
+50380,40380,Phone Burger,95.64,Dessert
+50381,40381,Stuff Pasta,79.72,Appetizer
+50382,40382,Break Pasta,77.2,Main Course
+50383,40383,Method Sandwich,8.12,Appetizer
+50384,40384,Technology Pasta,78.62,Side Dish
+50385,40385,Media Soup,55.1,Main Course
+50386,40386,Political Salad,63.2,Main Course
+50387,40387,Most Soup,5.27,Main Course
+50388,40388,Mouth Burger,91.44,Dessert
+50389,40389,Adult Pizza,84.62,Appetizer
+50390,40390,Outside Sandwich,46.4,Dessert
+50391,40391,Almost Soup,28.3,Main Course
+50392,40392,Those Salad,1.09,Side Dish
+50393,40393,Alone Sandwich,14.61,Side Dish
+50394,40394,Force Pasta,45.56,Side Dish
+50395,40395,Something Burger,94.93,Appetizer
+50396,40396,Old Salad,19.22,Dessert
+50397,40397,About Sandwich,10.27,Beverage
+50398,40398,Couple Pizza,10.83,Appetizer
+50399,40399,Town Pasta,4.8,Dessert
+50400,40400,Newspaper Pizza,12.18,Appetizer
+50401,40401,Hot Burger,37.96,Dessert
+50402,40402,Bank Soup,57.89,Side Dish
+50403,40403,Order Salad,95.26,Appetizer
+50404,40404,Bad Sandwich,39.24,Side Dish
+50405,40405,Risk Pasta,18.23,Side Dish
+50406,40406,Stock Soup,53.77,Main Course
+50407,40407,Assume Pasta,66.83,Appetizer
+50408,40408,Reduce Pasta,79.65,Main Course
+50409,40409,Federal Salad,85.46,Appetizer
+50410,40410,Red Pizza,49.49,Side Dish
+50411,40411,Natural Soup,78.21,Main Course
+50412,40412,Front Salad,65.12,Dessert
+50413,40413,It Pizza,8.22,Beverage
+50414,40414,Create Pasta,83.57,Dessert
+50415,40415,Although Pasta,99.02,Dessert
+50416,40416,Letter Burger,85.21,Appetizer
+50417,40417,Raise Burger,84.09,Beverage
+50418,40418,Yet Soup,93.33,Dessert
+50419,40419,Discuss Soup,66.54,Side Dish
+50420,40420,Receive Burger,87.01,Beverage
+50421,40421,Charge Pasta,70.9,Dessert
+50422,40422,Everyone Salad,69.8,Main Course
+50423,40423,So Salad,83.42,Main Course
+50424,40424,Mrs Soup,12.34,Dessert
+50425,40425,Effect Pasta,8.11,Appetizer
+50426,40426,Artist Salad,26.64,Beverage
+50427,40427,Certain Salad,66.47,Dessert
+50428,40428,Give Pizza,8.84,Main Course
+50429,40429,Number Pasta,21.11,Dessert
+50430,40430,Ability Salad,53.48,Dessert
+50431,40431,Treatment Sandwich,82.48,Main Course
+50432,40432,Effort Salad,40.34,Beverage
+50433,40433,Guy Burger,96.86,Appetizer
+50434,40434,Similar Sandwich,76.16,Dessert
+50435,40435,Structure Pizza,90.65,Appetizer
+50436,40436,Include Salad,83.95,Appetizer
+50437,40437,Develop Sandwich,85.17,Side Dish
+50438,40438,Dark Salad,60.49,Beverage
+50439,40439,Any Pizza,53.78,Side Dish
+50440,40440,Policy Burger,60.66,Main Course
+50441,40441,Free Soup,15.72,Main Course
+50442,40442,Nature Pizza,43.47,Appetizer
+50443,40443,Interest Burger,14.32,Side Dish
+50444,40444,Professor Sandwich,22.28,Beverage
+50445,40445,People Soup,21.89,Beverage
+50446,40446,Large Salad,54.15,Side Dish
+50447,40447,Party Soup,69.87,Side Dish
+50448,40448,Particular Sandwich,15.06,Side Dish
+50449,40449,Sound Salad,97.77,Main Course
+50450,40450,Case Pasta,22.65,Appetizer
+50451,40451,Section Burger,87.08,Appetizer
+50452,40452,Become Burger,17.72,Side Dish
+50453,40453,Action Sandwich,67.18,Appetizer
+50454,40454,Huge Salad,21.36,Side Dish
+50455,40455,Fire Pizza,72.83,Side Dish
+50456,40456,Full Soup,37.96,Side Dish
+50457,40457,Community Pizza,68.23,Dessert
+50458,40458,Every Salad,78.07,Main Course
+50459,40459,Account Burger,76.63,Dessert
+50460,40460,Agreement Pizza,6.99,Main Course
+50461,40461,Avoid Pasta,68.65,Beverage
+50462,40462,Finish Burger,75.96,Side Dish
+50463,40463,Throw Salad,64.38,Side Dish
+50464,40464,Eye Soup,43.31,Dessert
+50465,40465,Usually Burger,81.18,Main Course
+50466,40466,Former Salad,62.34,Appetizer
+50467,40467,Look Pasta,97.55,Appetizer
+50468,40468,Forget Soup,15.28,Appetizer
+50469,40469,Know Pizza,52.54,Dessert
+50470,40470,Enough Salad,74.15,Appetizer
+50471,40471,Shoulder Pizza,76.48,Main Course
+50472,40472,Chair Pasta,63.74,Main Course
+50473,40473,Factor Soup,67.93,Appetizer
+50474,40474,Now Sandwich,63.77,Side Dish
+50475,40475,Responsibility Pasta,33.65,Dessert
+50476,40476,Long Pasta,5.83,Side Dish
+50477,40477,Occur Salad,86.49,Beverage
+50478,40478,Board Soup,88.5,Main Course
+50479,40479,Off Pasta,35.17,Dessert
+50480,40480,Total Salad,82.68,Appetizer
+50481,40481,Main Pizza,54.16,Appetizer
+50482,40482,Person Sandwich,45.11,Dessert
+50483,40483,Admit Salad,34.76,Beverage
+50484,40484,Affect Pasta,43.55,Side Dish
+50485,40485,Music Pasta,43.3,Dessert
+50486,40486,Defense Sandwich,80.82,Side Dish
+50487,40487,Over Pizza,62.85,Beverage
+50488,40488,Various Sandwich,98.33,Beverage
+50489,40489,Government Salad,9.14,Side Dish
+50490,40490,Herself Salad,68.18,Side Dish
+50491,40491,Carry Sandwich,17.19,Dessert
+50492,40492,Along Burger,74.76,Side Dish
+50493,40493,North Pasta,43.16,Side Dish
+50494,40494,If Burger,16.3,Beverage
+50495,40495,Result Pasta,89.06,Main Course
+50496,40496,Continue Soup,97.52,Side Dish
+50497,40497,Other Burger,85.71,Main Course
+50498,40498,Rate Soup,98.1,Beverage
+50499,40499,Four Pasta,0.05,Side Dish
+50500,40500,Talk Pizza,67.83,Appetizer
