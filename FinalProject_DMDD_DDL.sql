@@ -235,18 +235,29 @@ END
 ---UDF 1
 ---calculate sales
 go
-Create FUNCTION dbo.GetSales()
+Alter FUNCTION dbo.GetSales(@RestaurantID int)
 RETURNS int
 AS
 BEGIN
 
 	DECLARE @TotalCompletedOrders int
 
-	select @TotalCompletedOrders = count(PaymentID) from Payment
-	where IsSuccessful = 'Success'
+	select @TotalCompletedOrders = count(OrderID) 
+	from [Order]
+	where RestaurantID = @RestaurantID
+	AND EXISTS (
+		SELECT PaymentID
+		FROM Payment
+		WHERE Payment.OrderID = [Order].OrderID
+		AND Payment.IsSuccessful = 'Success'
+	)
 
 	RETURN @TotalCompletedOrders
 END
+
+go
+ALTER TABLE Restaurant
+ADD TotalSales AS dbo.GetSales(RestaurantID)
 
 
 ---Trigger

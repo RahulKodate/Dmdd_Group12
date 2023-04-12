@@ -69,7 +69,7 @@ EXEC Maxpricedish;
 ---calculate sales
 
 go
-SELECT dbo.GetSales() as totalorders
+SELECT RestaurantName, TotalSales FROM Restaurant
 
 
 ---Trigger
