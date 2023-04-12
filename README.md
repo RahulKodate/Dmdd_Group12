@@ -10,7 +10,7 @@ Features/Objectives:
 
 
 References taken from: 
-https://www.w3schools.com/sql/
-Professors Lecture Slides
-GitHub resources 
+https://www.w3schools.com/sql/, 
+Professors Lecture Slides,
+GitHub resources, 
 Web Design Assignment of the teammate for GUI
